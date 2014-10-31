@@ -4,7 +4,10 @@
   "description": "nodejs server boilerplate",
   "author": "Simon Andersson",
   "homepage": "http://hiddencode.me",
-  "keywords": ["expressjs", "server boilerplate"],
+  "keywords": [
+    "expressjs",
+    "server boilerplate"
+  ],
   "scripts": {
     "start": "node index",
     "test": "NODE_ENV=test mocha core/test/tests.js -R spec"
@@ -37,7 +40,7 @@
     "grunt-browserify": "^2.1.0",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-cssmin": "~0.10.0",
-    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-sass": "~0.8.1",
     "grunt-contrib-uglify": "~0.5.1",
     "grunt-contrib-watch": "~0.6.1",

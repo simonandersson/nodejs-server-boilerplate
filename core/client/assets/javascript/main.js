@@ -13,8 +13,7 @@
       controller: 'main.controller'
     });
   }]);
-
-
+  
   app.controller('main.controller', function($scope) {
 
   });

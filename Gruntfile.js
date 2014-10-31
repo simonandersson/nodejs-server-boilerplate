@@ -29,6 +29,13 @@ var path = require('path'),
         }
       }
     },
+    jshint: {
+      options: {
+        globalstrict : true,
+        trailing: true
+      },
+      src: ['core/client/assets/javascript/**/*.js']
+    },
     browserify: {
       js: {
         src: 'core/client/assets/javascript/main.js',
@@ -98,7 +105,7 @@ var path = require('path'),
     grunt.task.run('watch');
   });
   grunt.registerTask('css_dev', ['sass:dist']);
-  grunt.registerTask('js_dev',  ['browserify']);
+  grunt.registerTask('js_dev',  ['jshint', 'browserify']);
 };
 
 module.exports = configureGrunt;
