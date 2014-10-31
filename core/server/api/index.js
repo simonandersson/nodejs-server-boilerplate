@@ -12,13 +12,11 @@ var _ = require('lodash'),
 http = function(method) {
   return function(req, res) {
     var object = req.body,
-        response,
-        options = _.extend({}, req.files, req.query, req.params);
+        response;
     
-    if (_.isEmpty(object)) {
-      object = options;
-      options = {};
-    }
+    object.files = req.files;
+    object.params = req.params;
+    object.query = req.query;
 
     return method(req, object).then(function onSuccess(result) {
       response = result;
