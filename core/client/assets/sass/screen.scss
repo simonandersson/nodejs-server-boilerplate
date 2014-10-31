@@ -1,0 +1,17 @@
+
+@import "base";
+@import "bootstrap/bootstrap";
+
+body, html {
+  font-weight: light;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+//@import "bootstrap";
+
+
+/* Smartphones (landscape) ----------- */
+$mq-phone-landscape: "only screen and (min-width : 321px)";
+
+/* Smartphones (portrait) ----------- */
+$mq-phone-portrait: "only screen and (max-width : 320px)";
+
+/* iPads (landscape) ----------- */
+$mq-tablet-landscape: "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)";
+
+/* iPads (portrait) ----------- */
+$mq-tablet-portrait: "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)";
+
+/* Large screens ----------- */
+$mq-desktop: "only screen and (min-width : 1824px)";
+
+// Mobile first
+$mq-medium: "only screen and (min-width: 768px) and (max-width: 1024px)";
+$mq-big: "only screen and (min-width: 1025px)";
+
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+
+   li {
+      padding: 0;
+      margin: 0;
+   }
+}

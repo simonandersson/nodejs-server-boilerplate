@@ -1,0 +1,50 @@
+b-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+bower_components
+.idea/*
+*.iml
+projectFilesBackup
+
+.DS_Store
+
+# vim-related
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+.vimrc
+*~
+
+# TernJS
+.tern-project
+
+# Ghost DB file
+*.db
+*.db-journal
+
+.build
+.dist
+.tmp
+
+
+# Custom
+.sass-cache
+core/client/assets/css
+core/client/assets/javascript/libs/
+wiki.wiki/
+
+slate/build
